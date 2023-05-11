@@ -27,4 +27,10 @@ return {
         config = function() vim.g.better_whitespace_guicolor = "#FAC898" end,
         lazy = false,
     },
+    {
+        "vimsence/vimsence",
+        name = "vimsence",
+        config = function() vim.g.vimsence_small_image = "neovim" end,
+        lazy = false,
+    },
 }
