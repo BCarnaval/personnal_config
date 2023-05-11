@@ -28,9 +28,9 @@ return {
         lazy = false,
     },
     {
-        "vimsence/vimsence",
-        name = "vimsence",
-        config = function() vim.g.vimsence_small_image = "neovim" end,
+        "andweeb/presence.nvim",
+        name = "presence",
+        config = function() end,
         lazy = false,
     },
 }
