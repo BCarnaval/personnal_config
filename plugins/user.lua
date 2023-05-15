@@ -20,6 +20,10 @@ return {
         "lervag/vimtex",
         ft = "tex",
         lazy = false,
+        config = function()
+            vim.g.vmitex_compiler_method = "latexmk"
+            vim.g.vimtex_view_general_viewer = "skim"
+        end,
     },
     {
         "ntpeters/vim-better-whitespace",
