@@ -22,7 +22,8 @@ return {
         lazy = false,
         config = function()
             vim.g.vmitex_compiler_method = "latexmk"
-            vim.g.vimtex_view_general_viewer = "skim"
+            vim.g.vimtex_quickfix_open_on_warning = 0
+            vim.g.vimtex_view_method = "skim"
         end,
     },
     {
